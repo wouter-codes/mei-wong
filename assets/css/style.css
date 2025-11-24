@@ -20,6 +20,11 @@ h2 {
     color: #184f63;
 }
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
 /* Hero section */
 #hero {
     background: url(../images/background.webp) no-repeat 50% 70% / cover;
@@ -27,13 +32,6 @@ h2 {
     min-height: 500px;
     padding: 5% 7%;
 }
-/* `background:`
-				     `red                      background-color
-				     `url(sunset.jpg)          background-image
-				     `top center / 200px 200px background-position / background-size` --> *Note how position and size are separated by `/`*
-				     `no-repeat                background-repeat
-				     `fixed;                   background-attachment
-					`} */
 
 /* About section */
 #about {
